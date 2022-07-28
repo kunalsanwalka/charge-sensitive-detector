@@ -1,0 +1,13 @@
+Rev. 1 -
+
+Initial PCB design for a charge sensitive amplifier circuit with the option to add shaping and bypass with a prebuilt solution from Cremat.
+
+Comments- This design did not work as expected since the inverting amplifier was wired incorrectly (the feedback was connected to the non-inverting input as opposed to the inverting input). This meant that the circuit output was pinned.
+	- Just the preamplifier was tested with a bypass for the inverting amplifier which worked fine (this is how the problem was isolated).
+	- A bodge solution was tried on the 2nd stage where the wires were connected properly. This seemed to work.
+
+Rev. 2 -
+
+1. Made changes to the 2nd stage inverting amplifier to fix the wiring issue.
+2. Changed silkscreen to reflect the actual input power for the op amps.
+3. Added more test points for the regulated voltage rails.

@@ -1,0 +1,55 @@
+.title KiCad schematic
+-60V1 -VDC TestPoint
++5V1 +5V TestPoint
+C1 +5V Earth 100uF
+C3 -5V Earth 100uF
+GND1 Earth TestPoint
+C2 -VDC Earth 100uF
+J1 +5V -5V Earth -VDC Earth Screw_Terminal_01x05
+C9 Net-_C9-Pad1_ Net-_C9-Pad2_ 1u
+C8 Earth Net-_C8-Pad2_ 10n
+R1 Net-_C8-Pad2_ -VDC 10M
+R3 Net-_C9-Pad2_ Earth 20K
+J2 Net-_C10-Pad1_ Earth Conn_Coaxial
+C11 Earth +5VA 100n
+J3 Net-_C10-Pad2_ Earth unconnected-_J3-Pad3_ Earth -5VA +5VA Earth Net-_C13-Pad2_ Conn_01x08_Female
+C15 Earth -5VA 100n
+C4 +5V Earth 10u
+C6 +5VA Earth 10u
+U1 Earth +5VA +5V LM1085-5.0
+-5V1 -5V TestPoint
+C7 -5VA Earth 10u
+C5 -5V Earth 10u
+IC1 Earth -5V -5VA LM2990T-5.0_NOPB
+IC3 unconnected-_IC3-Pad1_ Net-_C14-Pad1_ Net-_C9-Pad2_ -5VA unconnected-_IC3-Pad5_ Net-_C14-Pad2_ +5VA unconnected-_IC3-Pad8_ OPA657UBG4
+C16 Earth -5VA 100n
+C13 Net-_C10-Pad2_ Net-_C13-Pad2_ 1.4p
+R5 Net-_C10-Pad2_ Net-_C13-Pad2_ 100M
+C12 Earth +5VA 100n
+C17 Net-_C17-Pad1_ Net-_C17-Pad2_ 10n
+C19 Earth Net-_C19-Pad2_ 10n
+R12 Earth Net-_C22-Pad1_ 1K
+R13 Net-_C22-Pad1_ Net-_C17-Pad1_ 1K
+C22 Net-_C22-Pad1_ Net-_C17-Pad1_ 10p
+R9 Net-_C17-Pad2_ Net-_C14-Pad2_ 1.5K
+R10 Net-_C19-Pad2_ Net-_C17-Pad2_ 1.5K
+J4 Net-_C9-Pad1_ Net-_J4-Pad2_ Earth -5VA +5VA Earth Earth Net-_C17-Pad1_ Conn_01x08_Female
+R6 Net-_C14-Pad1_ Net-_C14-Pad2_ 470
+C14 Net-_C14-Pad1_ Net-_C14-Pad2_ 10p
+R7 Net-_C9-Pad1_ Net-_J4-Pad2_ 470
+RV1 Net-_C9-Pad2_ Net-_C9-Pad2_ Net-_C9-Pad1_ 1M
+R4 Earth Net-_C14-Pad1_ 20K
+IC2 unconnected-_IC2-Pad1_ Net-_C10-Pad2_ Earth -5VA unconnected-_IC2-Pad5_ Net-_C13-Pad2_ +5VA unconnected-_IC2-Pad8_ OPA657UBG4
+R2 Net-_C8-Pad2_ Net-_C10-Pad1_ 200M
+C10 Net-_C10-Pad1_ Net-_C10-Pad2_ 10n
+C20 Earth -5VA 100n
+C18 Earth +5VA 100n
+R8 Net-_C13-Pad2_ Net-_IC4-Pad3_ 100k
+IC4 unconnected-_IC4-Pad1_ Earth Net-_IC4-Pad3_ -5VA unconnected-_IC4-Pad5_ Net-_C9-Pad1_ +5VA unconnected-_IC4-Pad8_ OPA657UBG4
+R11 Net-_IC4-Pad3_ Net-_C9-Pad1_ 1M
+J6 Net-_C17-Pad1_ Earth Conn_Coaxial
+IC5 unconnected-_IC5-Pad1_ Net-_C22-Pad1_ Net-_C19-Pad2_ -5VA unconnected-_IC5-Pad5_ Net-_C17-Pad1_ +5VA unconnected-_IC5-Pad8_ OPA657UBG4
+C23 Earth -5VA 100n
+C21 Earth +5VA 100n
+J5 Net-_C9-Pad1_ Earth Conn_Coaxial
+.end
